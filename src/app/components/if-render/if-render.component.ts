@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./if-render.component.css']
 })
 export class IfRenderComponent {
-
+validation: boolean = true;
 }
