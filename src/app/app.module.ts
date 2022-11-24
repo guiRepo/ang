@@ -9,6 +9,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsComponent } from './components/events/events.component';
 import { EmitParentComponent } from './components/emit-parent/emit-parent.component';
 import { EmitChildComponent } from './components/emit-child/emit-child.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { EmitChildComponent } from './components/emit-child/emit-child.component
     IfRenderComponent,
     EventsComponent,
     EmitParentComponent,
-    EmitChildComponent
+    EmitChildComponent,
+    ListRenderComponent
   ],
   imports: [
     BrowserModule
