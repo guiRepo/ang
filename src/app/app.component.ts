@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularProj';
+
+  userData = {
+    name: 'gui',
+    age: 26
+  }
 }
